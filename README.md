@@ -43,7 +43,8 @@ In other words, if the text-derived vectors `v_u` carry information about the ou
 
 ## Data Preprocessing
 
+Following the study's design, the preprocessing of the original BRIGHTEN covariates is implemented in [prepare_ctgan_data.py](prepare_ctgan_data.py). Structured numeric covariates are median-imputed and standardized, while categorical covariates are converted into one-hot encoded indicator variables. To handle unstructured survey responses, the study maps missing entries to the string “No response” and generates dense text embeddings via the pretrained [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) transformer. This pipeline represents variable-length text by fixed-dimensional embeddings using a standard machine learning normalization step, making the resulting features comparable across observations. One notable preprocessing step is that, the 384-dimensional dense embeddings is compress to 32 dimensions using PCA. 
 
-Following the study's design, the preprocessing of the original BRIGHTEN covariates is implemented in [prepare_ctgan_data.py](prepare_ctgan_data.py). Structured numeric covariates are median-imputed and standardized, while categorical covariates are converted into one-hot encoded indicator variables. To handle unstructured survey responses, the study maps missing entries to the string “No response” and generates dense text embeddings via the pretrained [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) transformer. This pipeline represents variable-length text by fixed-dimensional embeddings using a standard machine learning normalization step, making the resulting features comparable across observations.
+Using the Generated data, we further fit causal forests to learn the conditional mean and variance using [rgf](https://cran.r-project.org/web/packages/RGF/index.html).  
 
 
