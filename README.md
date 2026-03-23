@@ -1,18 +1,31 @@
-# CALM_simulation
-Simulation studies of the paper https://arxiv.org/abs/2510.05545
-
 ## Rationale
 
-Our goal is to leverage unstructured text data in BRIGHTEN study to increase the efficiency of tabular, structured data. From the code [reproduce_similarity.py](reproduce_similarity.py),  we can see that unstructured data contains prognostic "signal" for depression outcomes in addition to traditional structured demographics. Specifically,  We take the raw text (e.g., "I want to improve my mood") and turn it into a 384-dimensional vector using a Sentence-Transformer (denoted as $v_u$ ), as well as the outcome (categorized as ordinal, post-transformation vector denoted as $v_o$). 
+Our goal is to leverage unstructured text data in the BRIGHTEN study to improve the efficiency of prediction beyond traditional structured tabular covariates.
 
-The reason to enroll and app satisfaction feedback scores showed a max correlation of 0.16–0.21. 
+From the code in [reproduce_similarity.py](reproduce_similarity.py), we see that unstructured baseline text contains prognostic signal for later depression outcomes in addition to standard demographic and behavioral variables. In particular, for each participant, we represent an unstructured text response `u` by a Sentence-Transformer embedding `v_u in R^384`, and we represent the PHQ-9 outcome category `o` by its corresponding embedding `v_o in R^384`.
 
-### Pre-Treatment Covariates vs. PHQ-9 Outcomes (Cosine Similarity)
+For unstructured text variables, similarity is quantified by cosine similarity on the embedding scale:
+
+`sim(u, o) = (v_u^T v_o) / (||v_u|| ||v_o||)`
+
+In the current implementation, this is computed at the variable level by taking the mean embedding across unique responses and comparing it to the mean embedding across unique outcome labels.
+
+For structured tabular covariates, the representation is different:
+- categorical variables are mapped to one-hot vectors;
+- continuous variables are centered and scaled.
+
+Thus, if a structured covariate is represented by `v_s` and the outcome representation by `v_o`, the same generic cosine form is used:
+
+`sim(s, o) = (v_s^T v_o) / (||v_s|| ||v_o||)`
+
+but now `v_s` comes from one-hot coding or standardized numeric values rather than a language-model embedding.
+
+Empirically, the unstructured variables are much more strongly aligned with depression outcomes than the standard structured covariates. In particular, the two text variables — **reason for enrollment** and **app satisfaction feedback** — show the strongest similarity scores, substantially exceeding the demographic variables.
 
 | Data Group | Variable | Cosine Similarity | Relevance |
 |---|---|---:|---|
 | **Unstructured Text** | App Satisfaction Feedback | 0.5708 | Highest |
-| **Unstructured Text** | Reason for Enrollment | 0.4907 | Very High  |
+| **Unstructured Text** | Reason for Enrollment | 0.4907 | Very High |
 | Structured (Behavioral) | Device Type | 0.2352 | Moderate |
 | Structured (Demographic) | Working Status | 0.2144 | Low |
 | Structured (Demographic) | Sex | 0.2086 | Low |
@@ -22,5 +35,12 @@ The reason to enroll and app satisfaction feedback scores showed a max correlati
 | Structured (Demographic) | Race | 0.1093 | Low |
 | Structured (Demographic) | Age | 0.0148 | Minimal |
 
+This motivates the main question of our simulation study:
 
-This motivates us to further study: can LLMs leverage this rich, high-signal unstructured data
+> Can LLM-based representations exploit the rich, high-signal unstructured data in a way that improves efficiency relative to analyses based only on conventional structured covariates?
+
+In other words, if the text-derived vectors `v_u` carry information about the outcome that is only weakly reflected in the structured covariates, then methods that use these embeddings should have the potential to recover prognostic structure that standard tabular approaches miss.
+
+## Data Preprocessing
+
+First, we preprocess the covariates in the original BRIGHTEN study dataset in [prepare_ctgan_data.py]([prepare_ctgan_data.py]). Structured numeric covariates are median-imputed and standardized, while categorical covariates are one-hot encoded. Unstructured covariates, such as survey responses, are first normalized so that missing entries are mapped to the string “No response.” We then embed each unstructured covariate separately using the pretrained sentence transformer [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) , applying padding, truncation, mean pooling with attention masks, and l2 normalization to obtain dense text embeddings.
