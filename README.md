@@ -51,3 +51,12 @@ To generate realistic outcomes for our synthetic population, we used the origina
 - **Synthesis:** In `generate_synthetic_outcomes.R`, we applied these fitted models to 20,000 synthetic participants to generate potential outcomes `Y(0)` and `Y(1)`, and then assigned treatment independently as `T ~ Bernoulli(0.5)`.
 
 The synthetic participants initially existed only as 32-dimensional PCA vectors. To recover natural language, `recover_text.py` uses a **top-1 nearest-neighbor retrieval** procedure. We first constructed a phrase bank from the original BRIGHTEN responses and projected those responses into the same PCA space. For each synthetic row, we then retrieved the original text whose embedding was closest to the synthetic PCA vector in cosine distance.
+
+## Initial Benchmarking With [GPT 5.4 Mini](https://openai.com/index/introducing-gpt-5-4-mini-and-nano/)
+
+We first conduct an initial benchmark using the LLM as a **direct outcome predictor** on a random benchmark sample of **N=200** participants drawn from the final synthetic superpopulation. For each sampled participant, the model is given baseline covariates, recovered enrollment text, and a specified treatment assignment, together with a small few-shot set of labeled examples, and is then asked to predict the participant’s follow-up PHQ-9 severity category. This is done twice per participant, once under active treatment and once under control, so that predicted potential outcomes can be formed and compared. 
+
+Drawing from existing literatures such as [TabLLM](https://github.com/clinicalml/TabLLM), [Unipredict](https://arxiv.org/pdf/2310.03266), and another relevant [survey](https://github.com/tanfiona/LLM-on-Tabular-Data-Prediction-Table-Understanding-Data-Generation?tab=readme-ov-file), we propose the following prompting strategy for LLMs in tabular data: each participant’s baseline covariates are rendered into a short natural-language profile, combined with a task instruction and a small set of labeled examples, and passed to an LLM for ordinal outcome prediction. 
+
+
+
