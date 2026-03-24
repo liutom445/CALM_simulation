@@ -47,7 +47,7 @@ Following the study's design, the preprocessing of the original BRIGHTEN covaria
 
 To generate realistic outcomes for our synthetic population, we used the original data to learn the relationship between covariates and clinical outcomes.
 
-- **Modeling:** Using `fit_causal_forests.R`, we fit Generalized Random Forests ([`grf`](https://cran.r-project.org/web/packages/grf/index.html)) to the original data to estimate the conditional mean `mu_t(W)` and conditional variance `sigma_t^2(W)` under both treatment and control.
+- **Modeling:** Using `fit_causal_forests.R`, we fit Generalized Random Forests ([`grf`](https://grf-labs.github.io/grf/)) to the original data to estimate the conditional mean `mu_t(W)` and conditional variance `sigma_t^2(W)` under both treatment and control.
 - **Synthesis:** In `generate_synthetic_outcomes.R`, we applied these fitted models to 20,000 synthetic participants to generate potential outcomes `Y(0)` and `Y(1)`, and then assigned treatment independently as `T ~ Bernoulli(0.5)`.
 
 The synthetic participants initially existed only as 32-dimensional PCA vectors. To recover natural language, `recover_text.py` uses a **top-1 nearest-neighbor retrieval** procedure. We first constructed a phrase bank from the original BRIGHTEN responses and projected those responses into the same PCA space. For each synthetic row, we then retrieved the original text whose embedding was closest to the synthetic PCA vector in cosine distance.
