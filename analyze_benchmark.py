@@ -5,20 +5,20 @@ def analyze():
     df = pd.read_csv('llm_benchmark_results.csv')
     
     # 1. Error Metrics
-    df['y_pred_observed'] = np.where(df['synthetic_t'] == 1, df['y1_pred'], df['y0_pred'])
+    df['y_pred_observed'] = np.where(df['synthetic_t'] == 1, df['y1_num'], df['y0_num'])
     mae = np.abs(df['y_pred_observed'] - df['y_true_num']).mean()
 
     # 2. ATE Estimation
     true_ate = 0.0578
-    ate_llm = (df['y1_pred'] - df['y0_pred']).mean()
+    ate_llm = (df['y1_num'] - df['y0_num']).mean()
     
     # 3. Efficiency Gain
     y_t = df[df['synthetic_t'] == 1]['y_true_num']
     y_c = df[df['synthetic_t'] == 0]['y_true_num']
     naive_se = np.sqrt(y_t.var()/len(y_t) + y_c.var()/len(y_c))
     
-    residual_t = y_t - df[df['synthetic_t'] == 1]['y1_pred']
-    residual_c = y_c - df[df['synthetic_t'] == 0]['y0_pred']
+    residual_t = y_t - df[df['synthetic_t'] == 1]['y1_num']
+    residual_c = y_c - df[df['synthetic_t'] == 0]['y0_num']
     calm_se = np.sqrt(residual_t.var()/len(y_t) + residual_c.var()/len(y_c))
     
     variance_reduction = 1 - (calm_se**2 / naive_se**2)

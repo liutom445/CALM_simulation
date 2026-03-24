@@ -1,201 +1,101 @@
-y1_pred,y0_pred,y1_num,y0_num,y_true_severity,y_true_num,synthetic_t
-Moderate,Moderate,3,3,Moderate,2.69136825254782,1
-Minimal,Moderate,1,3,Mild,2.30379629280464,0
-Moderate,Moderate,3,3,Minimal,0.811610337116208,0
-Moderate,Moderate,3,3,Mild,1.69480294485951,0
-Moderate,Moderate,3,3,Moderate,3.10320981935072,0
-Moderate,Moderate,3,3,Mild,1.9766621640329,1
-Minimal,Moderate,1,3,Moderate,2.99085996340767,0
-Minimal,Moderate,1,3,Moderate,2.7213249267031,0
-Moderate,Moderate,3,3,Mild,2.48359560481273,1
-Minimal,Moderate,1,3,Minimal,0.536103619753648,1
-Minimal,Moderate,1,3,Moderately severe,3.54611961476747,1
-Moderate,Moderate,3,3,Mild,2.04863330793195,0
-Moderate,Moderate,3,3,Mild,2.25340924853552,0
-Moderate,Moderate,3,3,Minimal,0.838779867096497,1
-Moderate,Moderate,3,3,Moderate,2.60899774648123,1
-Moderate,Moderate,3,3,Moderately severe,4.09884402821692,0
-Moderate,Moderate,3,3,Mild,1.69797983247566,1
-Moderate,Moderate,3,3,Moderate,3.47733691658137,0
-Minimal,Moderate,1,3,Minimal,0.601578665858155,1
-Moderate,Moderate,3,3,Moderate,2.91947602346381,0
-Minimal,Moderate,1,3,Moderate,2.86180978551281,1
-Moderate,Moderate,3,3,Mild,2.42253978594434,0
-Moderate,Moderate,3,3,Minimal,0.509325901634622,1
-Moderate,Moderate,3,3,Moderately severe,3.63286753159201,1
-Moderate,Moderate,3,3,Moderately severe,3.71617631194353,1
-Moderate,Moderate,3,3,Minimal,0.0056861059383259,1
-Moderate,Moderate,3,3,Moderately severe,4.43950153633253,1
-Minimal,Moderate,1,3,Mild,2.01762658772725,0
-Moderate,Moderate,3,3,Minimal,1.3298733256723,1
-Moderate,Moderate,3,3,Mild,1.55610488367659,0
-Moderate,Moderate,3,3,Minimal,1.49989669995192,1
-Minimal,Moderate,1,3,Minimal,0.762142587806729,1
-Minimal,Moderate,1,3,Moderate,3.35360889385963,1
-Minimal,Moderate,1,3,Minimal,0.697264729572863,0
-Minimal,Moderate,1,3,Mild,2.14508942908868,1
-Moderate,Moderate,3,3,Moderate,3.00567368177895,0
-Moderate,Moderate,3,3,Moderate,3.40876805315938,0
-Moderate,Moderate,3,3,Mild,2.43181506185306,1
-Moderate,Moderate,3,3,Mild,2.12438358932809,1
-Moderate,Moderate,3,3,Mild,2.03781362853643,0
-Moderate,Moderate,3,3,Minimal,0.154579777953589,1
-Moderate,Moderate,3,3,Mild,2.06693545493403,0
-Moderate,Moderate,3,3,Moderate,3.16296064934524,0
-Minimal,Moderate,1,3,Minimal,1.23043354776572,1
-Moderate,Moderate,3,3,Moderately severe,4.2463024538254,1
-Moderate,Moderate,3,3,Moderate,2.81692751785115,0
-Moderate,Moderate,3,3,Moderately severe,3.61045049456235,1
-Moderate,Moderate,3,3,Mild,2.2087683825447,1
-Minimal,Moderate,1,3,Moderate,2.85392834175074,1
-Moderate,Moderate,3,3,Moderately severe,3.67080144173116,0
-Minimal,Moderate,1,3,Minimal,0.616919701267283,1
-Moderate,Moderate,3,3,Minimal,0.935199722534477,0
-Moderate,Moderate,3,3,Moderate,2.93193701645125,0
-Moderate,Moderate,3,3,Mild,2.06066410282629,1
-Moderate,Moderate,3,3,Moderate,3.18145254580033,1
-Minimal,Moderate,1,3,Moderately severe,3.83961088244937,1
-Moderate,Moderate,3,3,Mild,2.09189473449569,1
-Moderate,Moderate,3,3,Mild,1.85564237080489,1
-Moderate,Moderate,3,3,Mild,1.53373027601378,0
-Moderate,Moderate,3,3,Mild,2.35103989599639,0
-Moderate,Moderate,3,3,Mild,2.22522447885538,0
-Moderate,Moderate,3,3,Moderate,2.64450100462343,0
-Moderate,Moderate,3,3,Moderately severe,3.75957257869006,1
-Minimal,Moderate,1,3,Mild,1.99186897071055,0
-Minimal,Moderate,1,3,Minimal,1.08067538825383,0
-Moderate,Moderate,3,3,Moderate,2.97068180117931,1
-Minimal,Moderate,1,3,Moderate,3.40571836375782,0
-Moderate,Moderate,3,3,Moderately severe,3.9425009556697,1
-Minimal,Moderate,1,3,Minimal,1.15555974342416,0
-Minimal,Moderate,1,3,Mild,1.52055906682165,0
-Minimal,Moderate,1,3,Mild,2.33982779354549,0
-Moderate,Moderate,3,3,Moderate,2.60634957712672,1
-Moderate,Moderate,3,3,Moderate,3.28982965765711,0
-Moderate,Moderate,3,3,Mild,1.83387607719206,0
-Minimal,Moderate,1,3,Moderately severe,4.36045162135719,0
-Moderate,Moderate,3,3,Mild,2.11676885135833,1
-Moderate,Moderate,3,3,Mild,1.65151977817684,0
-Moderate,Moderate,3,3,Minimal,0.265093316555723,1
-Minimal,Moderate,1,3,Moderately severe,4.01997291409858,1
-Minimal,Moderate,1,3,Minimal,1.45651681681616,0
-Minimal,Moderate,1,3,Minimal,-0.148127936450395,0
-Moderate,Moderate,3,3,Moderate,3.31666129793769,1
-Moderate,Moderate,3,3,Moderately severe,3.75488216196447,0
-Moderate,Moderate,3,3,Moderately severe,3.76962448658484,1
-Moderate,Moderate,3,3,Mild,2.41705272044762,0
-Moderate,Moderate,3,3,Mild,2.28256819965515,0
-Minimal,Moderate,1,3,Minimal,1.47694888659841,0
-Moderate,Moderate,3,3,Mild,2.01222479239132,1
-Moderate,Moderate,3,3,Moderate,3.47801243259473,1
-Moderate,Moderate,3,3,Mild,1.6173079545268,1
-Moderate,Moderate,3,3,Moderately severe,4.39476988879962,1
-Minimal,Moderate,1,3,Moderate,3.0635838426625,1
-Minimal,Moderate,1,3,Moderate,2.89668268902621,0
-Moderate,Moderate,3,3,Moderate,2.981766020518,1
-Minimal,Moderate,1,3,Moderate,3.21269809419835,0
-Moderate,Moderate,3,3,Minimal,1.47052661708357,0
-Minimal,Moderate,1,3,Moderate,3.3840349711866,0
-Moderate,Moderate,3,3,Moderate,3.49513175313708,1
-Moderate,Moderate,3,3,Moderately severe,3.53326001816866,0
-Moderate,Moderate,3,3,Mild,2.43827009574867,1
-Moderate,Moderate,3,3,Minimal,0.94609151634869,0
-Minimal,Moderate,1,3,Moderate,3.23032798324796,0
-Moderate,Moderate,3,3,Mild,2.05271172262046,1
-Minimal,Moderate,1,3,Mild,2.15464055922378,0
-Minimal,Moderate,1,3,Moderate,2.97356715603608,1
-Moderate,Moderate,3,3,Mild,2.1449532435677,0
-Moderate,Moderate,3,3,Mild,2.07536182203887,0
-Moderate,Moderate,3,3,Moderate,3.02602482507866,0
-Moderate,Moderate,3,3,Mild,1.97746554172599,0
-Moderate,Moderate,3,3,Mild,2.03745531606189,0
-Moderate,Moderate,3,3,Mild,1.60027332570171,1
-Moderate,Moderate,3,3,Mild,1.5950268824288,0
-Moderate,Moderate,3,3,Minimal,0.950268548312534,0
-Minimal,Moderate,1,3,Moderate,3.12103552779439,1
-Minimal,Moderate,1,3,Mild,2.46464202024161,1
-Minimal,Moderate,1,3,Moderate,2.96569815836093,0
-Moderate,Moderate,3,3,Moderately severe,3.64604574577708,0
-Moderate,Moderate,3,3,Minimal,0.894758083801929,1
-Minimal,Moderate,1,3,Mild,1.93816601013092,0
-Moderate,Moderate,3,3,Moderate,2.55429994247406,1
-Moderate,Moderate,3,3,Mild,2.41024891803347,1
-Moderate,Moderate,3,3,Severe,4.61489523163083,0
-Minimal,Moderate,1,3,Moderate,2.67360100974229,0
-Moderate,Moderate,3,3,Mild,2.14495493283623,1
-Moderate,Moderate,3,3,Moderately severe,3.51131656873877,1
-Moderate,Moderate,3,3,Minimal,0.126360311059472,1
-Moderate,Moderate,3,3,Moderately severe,3.82280283514856,1
-Minimal,Moderate,1,3,Moderate,3.17780442086214,0
-Moderate,Moderate,3,3,Minimal,0.784016176997937,1
-Moderate,Moderate,3,3,Moderately severe,4.16277849551862,1
-Moderate,Moderate,3,3,Minimal,1.06849153310679,1
-Minimal,Moderate,1,3,Minimal,1.24808692308908,0
-Minimal,Moderate,1,3,Minimal,1.06856199425234,1
-Moderate,Moderate,3,3,Mild,1.82722827711932,0
-Moderate,Moderate,3,3,Moderate,3.48334347710053,1
-Minimal,Moderate,1,3,Mild,2.41564421378181,1
-Moderate,Moderate,3,3,Minimal,-0.109991145123093,0
-Moderate,Moderate,3,3,Minimal,1.25449157579285,1
-Minimal,Moderate,1,3,Moderate,2.99865362437081,0
-Moderate,Moderate,3,3,Mild,2.02507833626081,1
-Moderate,Moderate,3,3,Mild,1.53703902725747,1
-Moderate,Moderate,3,3,Minimal,0.515309615147286,1
-Minimal,Moderate,1,3,Moderate,3.32181291282543,1
-Moderate,Moderate,3,3,Moderate,3.11832970405416,1
-Moderate,Moderate,3,3,Minimal,1.0584684976942,1
-Moderate,Moderate,3,3,Moderate,3.43812186255835,0
-Moderate,Moderate,3,3,Mild,2.44254353869522,0
-Minimal,Moderate,1,3,Moderate,3.30698696605308,0
-Moderate,Moderate,3,3,Mild,2.04579996274457,0
-Minimal,Moderate,1,3,Minimal,1.40727282413049,0
-Moderate,Moderate,3,3,Mild,2.3048060143561,1
-Moderate,Moderate,3,3,Moderate,2.80315959387468,0
-Minimal,Moderate,1,3,Minimal,0.972214175883816,1
-Moderate,Moderate,3,3,Mild,1.70698421701513,0
-Moderate,Moderate,3,3,Mild,2.04804408301103,1
-Minimal,Moderate,1,3,Moderate,2.82443127400356,1
-Moderate,Moderate,3,3,Mild,1.7998152070793,0
-Moderate,Moderate,3,3,Minimal,1.28443911519752,0
-Minimal,Moderate,1,3,Minimal,1.04147733875237,1
-Moderate,Moderate,3,3,Moderately severe,4.14451781928613,1
-Moderate,Moderate,3,3,Moderate,3.23766621062744,0
-Moderate,Moderate,3,3,Mild,2.1050334317001,1
-Moderate,Moderate,3,3,Mild,1.78377847261363,1
-Minimal,Moderate,1,3,Severe,4.65037215168442,0
-Moderate,Moderate,3,3,Minimal,0.946377820346402,0
-Moderate,Moderate,3,3,Minimal,1.12157432339176,1
-Moderate,Moderate,3,3,Mild,2.30397216812029,1
-Moderate,Moderate,3,3,Mild,2.14547012662983,0
-Minimal,Moderate,1,3,Moderately severe,3.9971025118284,1
-Moderate,Moderate,3,3,Moderate,2.58225198410713,1
-Moderate,Moderate,3,3,Mild,1.86237937821444,0
-Moderate,Moderate,3,3,Minimal,1.37944939799101,0
-Minimal,Moderate,1,3,Moderately severe,4.14959358198044,1
-Moderate,Moderate,3,3,Moderately severe,4.35247469247344,1
-Moderate,Moderate,3,3,Moderate,3.35996782040159,0
-Moderate,Moderate,3,3,Mild,1.57306041288492,1
-Minimal,Moderate,1,3,Mild,2.21070815849318,1
-Minimal,Moderate,1,3,Moderate,2.98981277546057,1
-Moderate,Moderate,3,3,Mild,2.37078307099072,0
-Moderate,Moderate,3,3,Mild,1.8991553440727,0
-Moderate,Moderate,3,3,Mild,1.69120537093665,1
-Moderate,Moderate,3,3,Severe,5.76796707418884,0
-Minimal,Moderate,1,3,Mild,2.0836994482702,0
-Moderate,Moderate,3,3,Minimal,1.09811285107228,0
-Minimal,Moderate,1,3,Mild,2.30295010529269,1
-Minimal,Moderate,1,3,Moderately severe,3.90792783219436,1
-Minimal,Moderate,1,3,Moderate,2.8485672803392,1
-Moderate,Moderate,3,3,Moderate,2.59581013642429,1
-Moderate,Moderate,3,3,Moderate,2.8663928318088,1
-Minimal,Moderate,1,3,Moderately severe,4.30527454313595,1
-Moderate,Moderate,3,3,Mild,1.83691975824418,0
-Minimal,Moderate,1,3,Moderately severe,4.10752692922248,1
-Moderate,Moderate,3,3,Minimal,0.914891225325408,0
-Minimal,Moderate,1,3,Moderate,2.86979760391202,0
-Minimal,Moderate,1,3,Mild,2.14104374119988,0
-Minimal,Moderate,1,3,Moderate,3.20181351378659,1
-Minimal,Moderate,1,3,Minimal,0.734878667529989,0
-Moderate,Moderate,3,3,Moderate,3.16581732497822,1
-Moderate,Moderate,3,3,Moderate,2.66149829074982,0
-Minimal,Moderate,1,3,Minimal,1.10977681834092,0
+source_index,y1_pred,y0_pred,y1_num,y0_num,y1_true_label,y0_true_label,y1_true_num,y0_true_num,y_true_severity,y_true_observed_num,y_true_num,synthetic_t
+13374,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,2.69136825254782,1
+3717,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,2.30379629280464,0
+16709,Moderate,Mild,3,2,Minimal,Minimal,1,1,Minimal,1,0.811610337116208,0
+2099,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,1.69480294485951,0
+15319,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,3.10320981935072,0
+5449,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,1.9766621640329,1
+8478,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,2.99085996340767,0
+11864,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,2.7213249267031,0
+5216,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,2.48359560481273,1
+4425,Moderate,Mild,3,2,Minimal,Minimal,1,1,Minimal,1,0.536103619753648,1
+18230,Moderate,Moderate,3,3,Moderately severe,Moderately severe,4,4,Moderately severe,4,3.54611961476747,1
+14287,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,2.04863330793195,0
+1411,Minimal,Mild,1,2,Mild,Mild,2,2,Mild,2,2.25340924853552,0
+15448,Moderate,Mild,3,2,Minimal,Minimal,1,1,Minimal,1,0.838779867096497,1
+13614,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,2.60899774648123,1
+15542,Moderate,Mild,3,2,Moderately severe,Moderately severe,4,4,Moderately severe,4,4.09884402821692,0
+991,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,1.69797983247566,1
+878,Moderate,Mild,3,2,Moderately severe,Moderate,4,3,Moderate,3,3.47733691658137,0
+7061,Mild,Mild,2,2,Minimal,Minimal,1,1,Minimal,1,0.601578665858155,1
+13966,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,2.91947602346381,0
+1377,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,2.86180978551281,1
+19460,Moderate,Mild,3,2,Moderate,Mild,3,2,Mild,2,2.42253978594434,0
+19935,Mild,Minimal,2,1,Minimal,Minimal,1,1,Minimal,1,0.509325901634622,1
+13997,Moderate,Moderate,3,3,Moderately severe,Moderately severe,4,4,Moderately severe,4,3.63286753159201,1
+9734,Moderate,Mild,3,2,Moderately severe,Moderately severe,4,4,Moderately severe,4,3.71617631194353,1
+4032,Moderate,Mild,3,2,Minimal,Minimal,1,1,Minimal,1,0.0056861059383259,1
+16446,Moderate,Mild,3,2,Moderately severe,Moderately severe,4,4,Moderately severe,4,4.43950153633253,1
+15634,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,2.01762658772725,0
+19975,Moderate,Mild,3,2,Minimal,Minimal,1,1,Minimal,1,1.3298733256723,1
+12854,Moderate,Moderate,3,3,Mild,Mild,2,2,Mild,2,1.55610488367659,0
+10143,Mild,Mild,2,2,Minimal,Minimal,1,1,Minimal,1,1.49989669995192,1
+6837,Moderate,Mild,3,2,Minimal,Minimal,1,1,Minimal,1,0.762142587806729,1
+12256,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,3.35360889385963,1
+11885,Moderate,Mild,3,2,Minimal,Minimal,1,1,Minimal,1,0.697264729572863,0
+6498,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,2.14508942908868,1
+13855,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,3.00567368177895,0
+10097,Moderate,Mild,3,2,Moderately severe,Moderate,4,3,Moderate,3,3.40876805315938,0
+14181,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,2.43181506185306,1
+19652,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,2.12438358932809,1
+8057,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,2.03781362853643,0
+13417,Moderate,Mild,3,2,Minimal,Minimal,1,1,Minimal,1,0.154579777953589,1
+821,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,2.06693545493403,0
+976,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,3.16296064934524,0
+9813,Moderate,Mild,3,2,Minimal,Minimal,1,1,Minimal,1,1.23043354776572,1
+1247,Moderate,Mild,3,2,Moderately severe,Moderately severe,4,4,Moderately severe,4,4.2463024538254,1
+8718,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,2.81692751785115,0
+1763,Moderate,Mild,3,2,Moderately severe,Moderately severe,4,4,Moderately severe,4,3.61045049456235,1
+14588,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,2.2087683825447,1
+15778,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,2.85392834175074,1
+17739,Moderate,Mild,3,2,Moderately severe,Moderately severe,4,4,Moderately severe,4,3.67080144173116,0
+644,Moderate,Mild,3,2,Minimal,Minimal,1,1,Minimal,1,0.616919701267283,1
+13837,Moderate,Mild,3,2,Minimal,Minimal,1,1,Minimal,1,0.935199722534477,0
+4636,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,2.93193701645125,0
+9389,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,2.06066410282629,1
+6688,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,3.18145254580033,1
+10917,Moderate,Mild,3,2,Moderately severe,Moderately severe,4,4,Moderately severe,4,3.83961088244937,1
+1478,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,2.09189473449569,1
+4632,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,1.85564237080489,1
+3770,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,1.53373027601378,0
+10080,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,2.35103989599639,0
+19369,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,2.22522447885538,0
+2200,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,2.64450100462343,0
+17055,Moderate,Mild,3,2,Moderately severe,Moderately severe,4,4,Moderately severe,4,3.75957257869006,1
+10440,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,1.99186897071055,0
+14848,Moderate,Mild,3,2,Minimal,Minimal,1,1,Minimal,1,1.08067538825383,0
+8394,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,2.97068180117931,1
+12887,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,3.40571836375782,0
+9324,Moderate,Moderate,3,3,Moderately severe,Moderately severe,4,4,Moderately severe,4,3.9425009556697,1
+11599,Moderate,Mild,3,2,Minimal,Minimal,1,1,Minimal,1,1.15555974342416,0
+15681,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,1.52055906682165,0
+17866,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,2.33982779354549,0
+17565,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,2.60634957712672,1
+3793,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,3.28982965765711,0
+16790,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,1.83387607719206,0
+5437,Moderate,Mild,3,2,Moderately severe,Moderately severe,4,4,Moderately severe,4,4.36045162135719,0
+10413,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,2.11676885135833,1
+19619,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,1.65151977817684,0
+2675,Moderate,Mild,3,2,Minimal,Minimal,1,1,Minimal,1,0.265093316555723,1
+47,Mild,Mild,2,2,Moderately severe,Moderately severe,4,4,Moderately severe,4,4.01997291409858,1
+11307,Moderate,Mild,3,2,Minimal,Minimal,1,1,Minimal,1,1.45651681681616,0
+14232,Moderate,Mild,3,2,Minimal,Minimal,1,1,Minimal,1,-0.148127936450395,0
+14454,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,3.31666129793769,1
+6400,Moderate,Moderate,3,3,Moderately severe,Moderately severe,4,4,Moderately severe,4,3.75488216196447,0
+5455,Moderate,Mild,3,2,Moderately severe,Moderately severe,4,4,Moderately severe,4,3.76962448658484,1
+13979,Moderate,Mild,3,2,Moderate,Mild,3,2,Mild,2,2.41705272044762,0
+5896,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,2.28256819965515,0
+14897,Moderate,Mild,3,2,Mild,Minimal,2,1,Minimal,1,1.47694888659841,0
+10083,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,2.01222479239132,1
+12965,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,3.47801243259473,1
+4125,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,1.6173079545268,1
+19969,Moderate,Mild,3,2,Moderately severe,Moderately severe,4,4,Moderately severe,4,4.39476988879962,1
+1512,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,3.0635838426625,1
+382,Mild,Mild,2,2,Moderate,Moderate,3,3,Moderate,3,2.89668268902621,0
+17939,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,2.981766020518,1
+3119,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,3.21269809419835,0
+16874,Moderate,Mild,3,2,Mild,Minimal,2,1,Minimal,1,1.47052661708357,0
+17510,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,3.3840349711866,0
+6780,Moderate,Mild,3,2,Moderate,Moderate,3,3,Moderate,3,3.49513175313708,1
+19723,Moderate,Mild,3,2,Moderately severe,Moderately severe,4,4,Moderately severe,4,3.53326001816866,0
+6379,Moderate,Mild,3,2,Mild,Mild,2,2,Mild,2,2.43827009574867,1
