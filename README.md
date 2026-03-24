@@ -58,5 +58,12 @@ We first conduct an initial benchmark using the LLM as a **direct outcome predic
 
 Drawing from existing literatures such as [TabLLM](https://github.com/clinicalml/TabLLM), [Unipredict](https://arxiv.org/pdf/2310.03266), and another relevant [survey](https://github.com/tanfiona/LLM-on-Tabular-Data-Prediction-Table-Understanding-Data-Generation?tab=readme-ov-file), we propose the following prompting strategy for LLMs in tabular data: each participant’s baseline covariates are rendered into a short natural-language profile, combined with a task instruction and a small set of labeled examples, and passed to an LLM for ordinal outcome prediction. 
 
+We summarize the following prompting strategies:
+
+1. Keep Data Serialization Simple and Explicit
+2. Use Semantic Labels(meaningful text categories) and Strict Output Constraints
+3. Give Minimal Instructions but Meaningful Context
+4. Select Few-Shot Examples for Quality and Balance
+5. Execute the exact same prompt 3 to 5 times and take average/mode. (Self-Consistency)
 
 
